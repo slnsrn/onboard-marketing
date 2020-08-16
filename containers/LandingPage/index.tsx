@@ -85,8 +85,8 @@ const LandingPage = ()=>{
                             <div className="flex flex-wrap align-items-center">
                                 <div className="col-lg-12">
                                     <div className="section-title service-style--2 text-center mb--30 mb_sm--0">
-                                        <h2>Neden mi Reservio?</h2>
-                                        <p>Çünkü Reservio ofis işlerini hallerderken sizin yerinize hallederken, siz asıl hedeflerinize daha kolay odaklabilirsiniz.</p>
+                                        <h2>Neden mi Onboard?</h2>
+                                        <p>Çünkü Onboard ofis işlerini hallerderken sizin yerinize hallederken, siz asıl hedeflerinize daha kolay odaklabilirsiniz.</p>
                                     </div>
                                 </div>
                             </div>

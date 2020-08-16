@@ -8,8 +8,21 @@
     "start": "next start"
   },
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "bootstrap": "^4.5.2",
     "next": "9.5.2",
+    "postcss-preset-env": "^6.7.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-icons": "^3.10.0",
+    "react-parallax": "^3.0.3",
+    "react-scroll-up": "^1.3.3",
+    "sass": "^1.26.10"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.46",
+    "tailwindcss": "^1.4.5",
+    "typescript": "^3.9.7"
   }
 }

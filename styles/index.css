@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+	@apply text-primary;
+}
+
+body {
+	font-family: 'Nunito', 'sans-serif';
+}
+
+@font-face {
+	font-family: 'Nunito';
+	font-style: light;
+	font-weight: 400;
+	font-display: swap;
+	src: local('Nunito'), local('Nunito'), url('/fonts/Nunito-Light.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'Nunito';
+	font-style: regular;
+	font-weight: 300;
+	font-display: swap;
+	src: local('Nunito'), local('Nunito'), url('/fonts/Nunito-Regular.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'Nunito';
+	font-style: semi-bold;
+	font-weight: 600;
+	font-display: swap;
+	src: local('Nunito'), local('Nunito'), url('/fonts/Nunito-SemiBold.ttf') format('ttf');
+}
+
+.home-menu {
+	width: 1000px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.home-menu .card .face.face1 {
+	transform: translateY(50px);
+	width: 300px;
+	height: 200px;
+	transition: 0.5s;
+}
+
+.home-menu .card:hover .face.face1 {
+	transform: translateY(0);
+}
+
+.home-menu .card .face.face1 .content {
+	opacity: 0.6;
+	transition: 0.5s;
+}
+
+.home-menu .card .face.face1 .content .package {
+	background-image: url('/package.jpg');
+	background-size: cover;
+	z-index: -1;
+}
+
+.home-menu .card .face.face1 .content .reservation {
+	background-image: url('/reservation.jpg');
+	background-size: cover;
+	z-index: -1;
+}
+
+.home-menu .card .face.face1 .content .people {
+	background-image: url('/people.jpg');
+	background-size: cover;
+	z-index: -1;
+}
+
+.home-menu .card:hover .face.face1 .content {
+	opacity: 1;
+}
+
+.home-menu .card .face.face2 {
+	width: 300px;
+	height: 150px;
+	transition: 0.5s;
+	transform: translateY(-100px);
+}
+
+.home-menu .card:hover .face.face2 {
+	transform: translateY(0);
+}
+
+.home-menu .card .face.face2 .content a {
+	margin: 15px 0 0;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 900;
+	color: #297d83;
+	padding: 5px;
+	border: 1px solid #297d83;
+}
+
+.home-menu .card .face.face2 .content a:hover {
+	background: #297d83;
+	color: #fff;
+}

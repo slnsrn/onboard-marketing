@@ -79,8 +79,8 @@ const LandingPage = () => {
             >
               <div className='container'>
                 <div className='flex flex-wrap'>
-                  <div className='col-lg-'>
-                    <div className={`inner ${bgImage !== 5 ? 'ml-12' : ''} ${value.textPosition}`}>
+                  <div className='col-lg-10'>
+                    <div className={`inner ${bgImage !== 5 ? 'lg:ml-12' : ''} ${value.textPosition}`}>
                       {value.category && <span>{value.category}</span>}
                       {value.title && <h1 className='title theme-gradient'>{value.title}</h1>}
                       {value.description && (
@@ -114,7 +114,7 @@ const LandingPage = () => {
                 <div className='section-title service-style--2 text-center mb--30 mb_sm--0'>
                   <h2>Neden mi Onboard?</h2>
                   <p>
-                    Çünkü Onboard ofis işlerini hallerderken sizin yerinize hallederken, siz asıl
+                    Çünkü Onboard ofis işlerini sizin yerinize hallederken, siz asıl
                     hedeflerinize daha kolay odaklabilirsiniz.
                   </p>
                 </div>

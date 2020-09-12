@@ -63,7 +63,7 @@ const Services = () => {
   return (
     <div className='flex flex-wrap'>
       {ServiceList.map((val, i) => (
-        <div className={`w-full sm:w-1/2 lg:w-1/3 px-4`} key={i}>
+        <div className={`w-full sm:w-1/2 lg:w-1/3 lg:px-4`} key={i}>
           <div className='service service__style--2'>
             <div className='icon'>{val.icon}</div>
             <div className='content'>

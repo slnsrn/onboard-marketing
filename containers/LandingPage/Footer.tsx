@@ -11,8 +11,8 @@ const Footer = () => {
   return (
     <footer className='footer-area'>
       <div className='relative'>
-        <div className='flex flex-wrap items-end'>
-          <div className='w-full md:w-1/2'>
+        <div className='flex items-end flex-col lg:flex-row'>
+          <div className='w-full lg:w-1/2'>
             <div className='footer-left'>
               <div className='inner'>
                 <span>Hazır mısınız?</span>
@@ -25,7 +25,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className='w-full md:w-1/2 pb-32 md:pb-0'>
+          <div className='w-full lg:w-1/2'>
             <div className='footer-right' data-black-overlay='6'>
               <div className='flex flex-wrap'>
                 <div className='w-1/2'>

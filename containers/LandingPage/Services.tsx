@@ -38,24 +38,24 @@ const ServiceList = [
     icon: <AiOutlineFileDone />,
     title: 'Dosya Yönetimi',
     description:
-      'Gerekli dosya ve dökümanların sisteme yüklenmesini ve kayıt altında tutulmasını sağlar.',
+      'Gerekli dosya ve dökümanların, bordroların sisteme yüklenmesini ve kayıt altında tutulmasını sağlar.',
   },
   {
     icon: <GiTabletopPlayers />,
     title: 'Toplantı Odası Yönetimi',
     description:
-      'Toplantı odalarının daha etkili şekilde kullanılabilmesi için gerekli kayıtları tutar, sürecin hızlı yönetilmesini sağlar.',
+      'Toplantı odalarının etkili şekilde kullanılabilmesi için gerekli kayıtları tutar, sürecin hızlı yönetilmesini sağlar.',
   },
   {
     icon: <FiVideo />,
     title: 'Görüntülü Görüşme',
-    description: 'Toplantılarınıza anlık görüntülü görüşme oluşturarak kolayca bağlanabilirsiniz.',
+    description: 'Çevrim içi toplantı talebi olusturabilir, ilgili kisileri davet edebilir, görüntülü görusme yapabilirsiniz.',
   },
   {
     icon: <GiPalmTree />,
     title: 'İzin Talebi Yönetimi',
     description:
-      'Çalışan izinlerinin yönetimini ve takibini yapar, talepleri ve onay sistemini düzenler.',
+      'Çalışan izinlerinin taleplerinin yönetimini ve takibini yapar, talepleri ve onay sistemini düzenler.',
   },
 ]
 
